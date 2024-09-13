@@ -109,7 +109,7 @@ h1 {
 
 .hero h3 {
   font-size: 36px;
-  padding-block: 3rem;
+  margin-block: 2rem;
 }
 
 .hero button {
