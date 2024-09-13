@@ -38,10 +38,6 @@ hr {
   background-color: #191919;
 }
 
-.green {
-  background-color: #1a8917;
-}
-
 .container {
   width: 80%;
   margin-inline: auto;
@@ -54,6 +50,11 @@ header {
   position: sticky;
   top: 0px;
   z-index: 900;
+  transition: background-color 300ms ease;
+}
+
+.header-scrolled {
+  background-color: white;
 }
 
 .container.header {
@@ -72,7 +73,7 @@ header {
   padding-right: 1.5rem;
 }
 
-.container.header button {
+header button {
   font-size: 17px;
   padding: 15px 25px;
   color: #ebebeb;
@@ -80,6 +81,11 @@ header {
   border-radius: 30px;
   border: none;
   cursor: pointer;
+  transition: background-color 300ms ease;
+}
+
+.button-scrolled {
+  background-color: #1a8917;
 }
 
 /* hero */
@@ -173,6 +179,11 @@ h1 {
   font-size: 22px;
   font-weight: bold;
   margin-block: 1rem;
+}
+
+.trending-section img + p + p,
+.trending-section img + p + p + p {
+  margin-left: 4rem;
 }
 
 .trending-section img + p + p + p,
